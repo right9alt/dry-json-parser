@@ -1,0 +1,263 @@
+{
+  "result": {
+    "postings": [
+      {
+        "posting_number": "02329461-0607-1",
+        "order_id": 24428352933,
+        "order_number": "02329461-0607",
+        "status": "awaiting_deliver",
+        "delivery_method": {
+          "id": 1020001268365000,
+          "name": "Доставка Ozon самостоятельно, Тверь",
+          "warehouse_id": 1020001268365000,
+          "warehouse": "Тверь Коминтерна",
+          "tpl_provider_id": 24,
+          "tpl_provider": "Доставка Ozon"
+        },
+        "tracking_number": "",
+        "tpl_integration_type": "ozon",
+        "in_process_at": "2024-07-02T11:05:54Z",
+        "shipment_date": "2024-07-04T10:00:00Z",
+        "delivering_date": null,
+        "cancellation": {
+          "cancel_reason_id": 0,
+          "cancel_reason": "",
+          "cancellation_type": "",
+          "cancelled_after_ship": false,
+          "affect_cancellation_rating": false,
+          "cancellation_initiator": ""
+        },
+        "customer": null,
+        "products": [
+          {
+            "price": "2925.0000",
+            "offer_id": "11055940",
+            "name": "Serenada платье френда, сине-голубой",
+            "sku": 1582970997,
+            "quantity": 1,
+            "mandatory_mark": [
+              ""
+            ],
+            "currency_code": "RUB"
+          }
+        ],
+        "addressee": null,
+        "barcodes": {
+          "upper_barcode": "600417753945000",
+          "lower_barcode": "600417753945000"
+        },
+        "analytics_data": {
+          "region": "Московская Область",
+          "city": "Люберцы",
+          "delivery_type": "PVZ",
+          "is_premium": false,
+          "payment_type_group_name": "Сохраненной картой при получении",
+          "warehouse_id": 1020001268365000,
+          "warehouse": "Тверь Коминтерна",
+          "tpl_provider_id": 24,
+          "tpl_provider": "Доставка Ozon",
+          "delivery_date_begin": "2024-07-07T17:00:00Z",
+          "delivery_date_end": "2024-07-07T18:00:00Z",
+          "is_legal": false
+        },
+        "financial_data": {
+          "products": [
+            {
+              "commission_amount": 0,
+              "commission_percent": 0,
+              "payout": 0,
+              "product_id": 1582970997,
+              "old_price": 5850,
+              "price": 2925,
+              "total_discount_value": 2925,
+              "total_discount_percent": 50,
+              "actions": [
+                "Системная виртуальная скидка селлера"
+              ],
+              "picking": null,
+              "quantity": 1,
+              "client_price": "",
+              "item_services": {
+                "marketplace_service_item_fulfillment": 0,
+                "marketplace_service_item_pickup": 0,
+                "marketplace_service_item_dropoff_pvz": 0,
+                "marketplace_service_item_dropoff_sc": 0,
+                "marketplace_service_item_dropoff_ff": 0,
+                "marketplace_service_item_direct_flow_trans": 0,
+                "marketplace_service_item_return_flow_trans": 0,
+                "marketplace_service_item_deliv_to_customer": 0,
+                "marketplace_service_item_return_not_deliv_to_customer": 0,
+                "marketplace_service_item_return_part_goods_customer": 0,
+                "marketplace_service_item_return_after_deliv_to_customer": 0
+              },
+              "currency_code": "RUB"
+            }
+          ],
+          "posting_services": {
+            "marketplace_service_item_fulfillment": 0,
+            "marketplace_service_item_pickup": 0,
+            "marketplace_service_item_dropoff_pvz": 0,
+            "marketplace_service_item_dropoff_sc": 0,
+            "marketplace_service_item_dropoff_ff": 0,
+            "marketplace_service_item_direct_flow_trans": 0,
+            "marketplace_service_item_return_flow_trans": 0,
+            "marketplace_service_item_deliv_to_customer": 0,
+            "marketplace_service_item_return_not_deliv_to_customer": 0,
+            "marketplace_service_item_return_part_goods_customer": 0,
+            "marketplace_service_item_return_after_deliv_to_customer": 0
+          },
+          "cluster_from": "",
+          "cluster_to": "Moskva-Vostok i Dal`nie regiony`"
+        },
+        "is_express": false,
+        "requirements": {
+          "products_requiring_gtd": [],
+          "products_requiring_country": [],
+          "products_requiring_mandatory_mark": [],
+          "products_requiring_rnpt": [],
+          "products_requiring_jw_uin": []
+        },
+        "parent_posting_number": "",
+        "available_actions": [
+          "cancel",
+          "label_download",
+          "label_download_small"
+        ],
+        "multi_box_qty": 1,
+        "is_multibox": false,
+        "substatus": "posting_transferring_to_delivery",
+        "prr_option": "",
+        "quantum_id": 0
+      },
+      {
+        "posting_number": "02329461-0608-1",
+        "order_id": 24428362933,
+        "order_number": "02329461-0608",
+        "status": "awaiting_deliver",
+        "delivery_method": {
+          "id": 1020001268365000,
+          "name": "Доставка Ozon самостоятельно, Тверь",
+          "warehouse_id": 1020001268365000,
+          "warehouse": "Тверь Коминтерна",
+          "tpl_provider_id": 24,
+          "tpl_provider": "Доставка Ozon"
+        },
+        "tracking_number": "",
+        "tpl_integration_type": "ozon",
+        "in_process_at": "2024-07-02T11:07:52Z",
+        "shipment_date": "2024-07-04T10:00:00Z",
+        "delivering_date": null,
+        "cancellation": {
+          "cancel_reason_id": 0,
+          "cancel_reason": "",
+          "cancellation_type": "",
+          "cancelled_after_ship": false,
+          "affect_cancellation_rating": false,
+          "cancellation_initiator": ""
+        },
+        "customer": null,
+        "products": [
+          {
+            "price": "3750.0000",
+            "offer_id": "12157660",
+            "name": "Serenada платье дакота, голубой",
+            "sku": 1567902027,
+            "quantity": 1,
+            "mandatory_mark": [
+              ""
+            ],
+            "currency_code": "RUB"
+          }
+        ],
+        "addressee": null,
+        "barcodes": {
+          "upper_barcode": "700417753723000",
+          "lower_barcode": "700417753723000"
+        },
+        "analytics_data": {
+          "region": "Московская Область",
+          "city": "Люберцы",
+          "delivery_type": "PVZ",
+          "is_premium": false,
+          "payment_type_group_name": "Сохраненной картой при получении",
+          "warehouse_id": 1020001268365000,
+          "warehouse": "Тверь Коминтерна",
+          "tpl_provider_id": 24,
+          "tpl_provider": "Доставка Ozon",
+          "delivery_date_begin": "2024-07-07T17:00:00Z",
+          "delivery_date_end": "2024-07-07T18:00:00Z",
+          "is_legal": false
+        },
+        "financial_data": {
+          "products": [
+            {
+              "commission_amount": 0,
+              "commission_percent": 0,
+              "payout": 0,
+              "product_id": 1567902027,
+              "old_price": 7500,
+              "price": 3750,
+              "total_discount_value": 3750,
+              "total_discount_percent": 50,
+              "actions": [
+                "Системная виртуальная скидка селлера"
+              ],
+              "picking": null,
+              "quantity": 1,
+              "client_price": "",
+              "item_services": {
+                "marketplace_service_item_fulfillment": 0,
+                "marketplace_service_item_pickup": 0,
+                "marketplace_service_item_dropoff_pvz": 0,
+                "marketplace_service_item_dropoff_sc": 0,
+                "marketplace_service_item_dropoff_ff": 0,
+                "marketplace_service_item_direct_flow_trans": 0,
+                "marketplace_service_item_return_flow_trans": 0,
+                "marketplace_service_item_deliv_to_customer": 0,
+                "marketplace_service_item_return_not_deliv_to_customer": 0,
+                "marketplace_service_item_return_part_goods_customer": 0,
+                "marketplace_service_item_return_after_deliv_to_customer": 0
+              },
+              "currency_code": "RUB"
+            }
+          ],
+          "posting_services": {
+            "marketplace_service_item_fulfillment": 0,
+            "marketplace_service_item_pickup": 0,
+            "marketplace_service_item_dropoff_pvz": 0,
+            "marketplace_service_item_dropoff_sc": 0,
+            "marketplace_service_item_dropoff_ff": 0,
+            "marketplace_service_item_direct_flow_trans": 0,
+            "marketplace_service_item_return_flow_trans": 0,
+            "marketplace_service_item_deliv_to_customer": 0,
+            "marketplace_service_item_return_not_deliv_to_customer": 0,
+            "marketplace_service_item_return_part_goods_customer": 0,
+            "marketplace_service_item_return_after_deliv_to_customer": 0
+          },
+          "cluster_from": "",
+          "cluster_to": "Moskva-Vostok i Dal`nie regiony`"
+        },
+        "is_express": false,
+        "requirements": {
+          "products_requiring_gtd": [],
+          "products_requiring_country": [],
+          "products_requiring_mandatory_mark": [],
+          "products_requiring_rnpt": [],
+          "products_requiring_jw_uin": []
+        },
+        "parent_posting_number": "",
+        "available_actions": [
+          "cancel",
+          "label_download",
+          "label_download_small"
+        ],
+        "multi_box_qty": 1,
+        "is_multibox": false,
+        "substatus": "posting_transferring_to_delivery",
+        "prr_option": "",
+        "quantum_id": 0
+      }
+    ],
+    "count": 8
+  }
+}
