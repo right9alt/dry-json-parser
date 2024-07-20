@@ -101,7 +101,10 @@ json_single_data = '{
           }
         ],
         "name": "Serenada платье френда, сине-голубой",
-        "sku": 1582970997
+        "sku": 1582970997,
+        "dimensions": {
+          "height": 123
+        }
       }
     ],
     "integers": [1,2,3,4]
@@ -127,14 +130,15 @@ def build_type_map(schema)
 
   schema.keys.each do |attr|
     inner_type = extract_primitive_type(attr.type)
+    name = attr.name
     if inner_type == Array
       element_type = extract_primitive_type(attr.type.member)
-      type_map[attr.name] = { type: element_type, is_array: true, custom: element_type.respond_to?(:schema) }
+      type_map[name] = { type: element_type, is_array: true, custom: element_type.respond_to?(:schema) }
     else
-      type_map[attr.name] = { type: inner_type, is_array: false, custom: inner_type.respond_to?(:schema) }
+      type_map[name] = { type: inner_type, is_array: false, custom: inner_type.respond_to?(:schema) }
     end
+    type_map[name][:path] = name.to_s.split("__") if name.to_s.include? "__"
   end
-
   type_map
 end
 
@@ -156,7 +160,12 @@ def create_struct_from_hash(klass, json, type_map)
   attributes =
     klass.schema.keys.map(&:name).each_with_object({}) do |key, hash|
       nested_type_map = type_map[:mapping][key]
-      json_value = json[key.to_s]
+      json_value = 
+        if nested_type_map[:path]
+          json.dig(*nested_type_map[:path])
+        else
+          json[key.to_s]
+        end
 
       hash[key] =
         if nested_type_map[:custom]
